@@ -8,10 +8,12 @@
 /* ---------------------------------------------- */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700
+@import url(http://fonts.googleapis.com/css?family=Trebuchet MS:400,300,700);
+
 
 body {
-	font: 300 15px/1.6 'Raleway', serif, sans-serif;
+	font: 300 15px/1.6 'Trebuchet MS', Helvetica, sans-serif;
 	color: #545454;
 }
 
@@ -33,7 +35,7 @@ a:hover {
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 400 46px/1.2 'Montserrat', serif, sans-serif;
+	font: 400 46px/1.2 'Trebuchet MS', Helvetica, sans-serif;
 	margin: 5px 0 5px;
 	color: #222;
 }
