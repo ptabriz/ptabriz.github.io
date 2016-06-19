@@ -9,10 +9,11 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Tangerine:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Mukta Vaani');
 
 
 body {
-	font: 300 15px/1.6 'Tangerine', serif, sans-serif;
+	font: 300 15px/1.6 'Mukta Vaani', serif, sans-serif;
 	color: #545454;
 }
 
@@ -34,7 +35,7 @@ a:hover {
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 400 46px/1.2 'Tangerine', serif, sans-serif;
+	font: 400 46px/1.2 'Mukta Vaani', serif, sans-serif;
 	margin: 5px 0 5px;
 	color: #222;
 }
