@@ -235,7 +235,7 @@ a,
  * Skill-bars
 /* ---------------------------------------------- */
 
-.skill-bar {
+/*.skill-bar {
 	background: #C4C4C4;
 	display: table;
 	height: 4px;
@@ -251,7 +251,7 @@ a,
 	display: table-cell;
 	border-left: 2px solid #FFF;
 	border-right: 2px solid #FFF;
-}
+}/*
 
 /* ---------------------------------------------- /*
  * Progress bars
@@ -525,7 +525,7 @@ h3 > .fa {
  * Profile-contact
 /* ---------------------------------------------- */
 
-#profile-contact {
+/*#profile-contact {
 	box-shadow: 0 0 4px rgba(0, 0, 0, .2);
 	padding: 20px 0;
 }
@@ -574,7 +574,7 @@ h3 > .fa {
 
 .stat .stat-icon i {
 	margin-right: 10px;
-}
+} /*
 
 /* ---------------------------------------------- /*
  * Service
