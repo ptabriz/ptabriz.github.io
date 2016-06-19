@@ -165,6 +165,14 @@ a,
 	outline: inherit !important;
 }
 
+/* Button social */
+[class^="icon-custom-"],
+[class*=" icon-custom-"] {
+  background-image: url("https://app.10000ft.com/images/compSpritesButtonsIcons.png?8");
+}
+
+.icon-custom-logo { background-position : -530px -700px; width : 142px; height : 158px;  }
+.icon-custom-intheoffice { background-position: -395px -60px; width: 24px; height: 24px  }
 /* Button icons */
 
 .btn .icon-before {
