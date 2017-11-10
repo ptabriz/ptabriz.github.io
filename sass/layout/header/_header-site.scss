@@ -1,0 +1,43 @@
+/* 3.2 - Header/Site */
+
+.jayo-site-header {
+  margin: 0 auto;
+
+  .site-brand {
+    @include size(null 32px);
+    @include margin(63px 0 0);
+
+    @include medium {
+      @include margin(33px 0 0);
+    }
+
+    img {
+      max-height: 32px;
+    }
+
+  	h1 {
+  		@include margin(0);
+  		line-height: 32px;
+      font-size: 24px;
+  	}
+
+    a {
+      @include size(null 32px);
+      display: inline-block;
+    }
+  }
+
+  &.image,
+  &.slider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+
+    @include medium {
+      width: 100%;
+    }
+
+  }
+}

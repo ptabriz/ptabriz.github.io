@@ -1,0 +1,101 @@
+/* 2.11 - Portfolio/Grid */
+
+.jayo-portfolio-template {
+  @include padding(null 15px);
+
+  .items {
+    @include margin(-15px);
+
+    figure.item {
+      @include margin(15px 0);
+
+      a {
+        @include position(relative, null);
+        overflow: hidden;
+        display: block;
+      }
+
+      img {
+        @include size(100% null);
+        @include transition(all .3s ease);
+      }
+
+      .caption {
+        @include position(absolute, null null 0 0);
+        width: 100%;
+        height: 100%;
+        @include transition(all .2s ease);
+        background-color: rgba(250, 250, 250, .95);
+        opacity: 0;
+
+        .wrapper {
+          @include position(absolute, 50% null null);
+          @include size(100% null);
+          @include padding(10px);
+          @include transform(translateY(-50%));
+          text-align: center;
+
+          h4 {
+            @include margin(0);
+            font-size: 15px;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+
+          ul.tags {
+            @include margin(5px 0 0);
+            @include padding(0);
+            display: block;
+            text-transform: lowercase;
+            font-size: 13px;
+            color: $boulder;
+
+            li {
+              display: inline-block;
+
+              &:after {
+                @include padding(0 5px);
+                content: '/';
+              }
+
+              &:last-child:after {
+                @include padding(0);
+                content: '';
+              }
+            }
+          }
+        }
+      }
+
+      &:hover .caption {
+        opacity: 1;
+      }
+    }
+
+    &.alt figure.item .caption {
+      @include position(absolute, null null 15px 15px);
+      background-color: rgba(250, 250, 250, 1);
+      width: auto;
+      height: auto;
+
+      .wrapper {
+        @include position(relative, 0 null null);
+        @include size(100% null);
+        @include padding(10px);
+        @include transform(translateY(0));
+        text-align: left;
+
+        h4 {
+          text-transform: lowercase;
+          font-size: 12px;
+        }
+        
+        ul.tags {
+          display: none;
+        }
+      }
+    }
+  }
+}
+  

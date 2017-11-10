@@ -1,0 +1,56 @@
+/* 2.4 - About/Team */
+
+.jayo-about-us-template .team .members {
+  @include margin(-15px);
+
+  figure {
+    @include position(relative, null);
+    @include padding(15px);
+
+
+    .img-wrapper {
+      @include position(relative, null);
+
+      img {
+        @include size(100% null);
+      }
+    }
+
+    .description {
+      padding: 20px 10px;
+
+      h4 {
+        @include margin(0);
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      p.title {
+        @include margin(3px 0 0 0);
+        font-size: 15px;
+      }
+
+      p.content {
+        @include margin(8px 0 0 0);
+      }
+
+      .social-media {
+        @include margin(15px 0 0 0);
+
+        li {
+          display: inline-block;
+
+          a {
+            font-size: 14px;
+            padding: 0 8px 0 0;
+            color: #333;
+
+            &:hover {
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}

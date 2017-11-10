@@ -1,0 +1,22 @@
+/* 2.12 - Preloader/Circle */
+
+.jayo-preloader .animation.circle {
+	@include position(absolute, 50% null null 50%);
+	@include margin(-18px null null -18px);
+	@include size(36px 36px);
+	@include border-color($gallery $gallery $mine-shaft $mine-shaft);
+	@include border-style(solid);
+	@include border-width(4px);
+	@include border-top-radius(50%);
+	@include border-right-radius(50%);
+	@include border-bottom-radius(50%);
+	@include border-left-radius(50%);
+	@include animation(circle-animation .6s infinite linear);
+	background: transparent;
+}
+
+@include keyframes(circle-animation) {
+  to {
+    @include transform(rotate(360deg));
+  }
+}

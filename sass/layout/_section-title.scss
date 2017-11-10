@@ -1,0 +1,30 @@
+/* 3.4 - Section Title */
+
+.jayo-about-us-template,
+.jayo-about-me-template,
+.jayo-contact-template,
+.jayo-portfolio-template, {
+  .section-title {
+    @include position(relative, null);
+    @include padding(null null 40px);
+
+    h3 {
+      @include position(relative, null);
+      @include margin(0 0 5px);
+      font-size: 1.625em;
+    }
+
+    p {
+      @include margin(0);
+    }
+  }
+}
+
+.jayo-about-me-template .section-title {
+  padding-bottom: 100px;
+
+  @include medium {
+    padding-bottom: 50px;
+  }
+
+}

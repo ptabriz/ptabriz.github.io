@@ -1,0 +1,912 @@
+/*
+Template Name: Jayo
+URI: http://jkalberto.com
+Version: 1.0.0
+*/
+/**
+ * Table of Contents:
+ * 1.0 - Base
+ *	1.1 -  Theme
+ * 2.0 - Components
+ *	2.1 -  About/Clients
+ * 	2.2 -  About/Me
+ * 	2.3 -  About/Services
+ * 	2.4 -  About/Team
+ *	2.5 -  Contact/Form
+ *	2.6 -  Contact/Section
+ *	2.7 -  Navigation/Icon
+ *	2.8 -  Navigation/Main
+ *	2.9 -  Navigation/Posts
+ *	2.10 - Portfolio/Filter
+ *	2.11 - Portfolio/Grid
+ *	2.12 - Preloader/Circle
+ *	2.14 - Preloader/Main
+ * 3.0 - Layout
+ *	3.1 -  Header/Page
+ * 	3.2 -  Header/Site
+ * 	3.3 -  Footer
+ * 	3.4 -  Section Title
+ * 	3.5 -  Site
+ * 4.0 - Pages
+ *	4.3 -  About
+ *	4.2 -  Posts
+ *	4.3 -  Single
+ * -----------------------------------------------------------------------------
+ */
+/* 1.0 - Base */
+/* 1.1 - Theme */
+html {
+  font-size: 16px; }
+
+body {
+  overflow-wrap: normal;
+  word-wrap: normal;
+  word-break: normal;
+  font-family: 'Quicksand', monospace;
+  background: #fff;
+  color: #737373;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 1px;
+  font-size: 15px; }
+
+a {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  color: #737373; }
+  a:hover, a:focus, a:active {
+    color: #111;
+    text-decoration: none;
+    outline: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  line-height: 1.2; }
+
+iframe {
+  max-width: 100%; }
+
+embed,
+object,
+img {
+  height: auto;
+  max-width: 100%; }
+
+table {
+  border-collapse: collapse; }
+
+th {
+  background: #f1f1f1; }
+
+th, td {
+  text-align: left;
+  padding: 8px 15px; }
+
+/* 2.0 - Components */
+/* 2.1 - About/Clients */
+.jayo-about-us-template .clients .logos {
+  margin: -10px; }
+  .jayo-about-us-template .clients .logos figure {
+    margin: 10px 0;
+    padding: 0 10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: .7; }
+    .jayo-about-us-template .clients .logos figure:hover {
+      opacity: 1; }
+  .jayo-about-us-template .clients .logos.carousel {
+    margin: 0; }
+    .jayo-about-us-template .clients .logos.carousel figure {
+      margin: 0;
+      padding: 0;
+      width: 100%; }
+
+/* 2.2 - About/Me */
+.jayo-about-me-template .about-me-sections {
+  margin: 0 -50px; }
+  .jayo-about-me-template .about-me-sections .experience-section,
+  .jayo-about-me-template .about-me-sections .education-section {
+    padding: 0 50px;
+    text-align: center; }
+    .jayo-about-me-template .about-me-sections .experience-section .title,
+    .jayo-about-me-template .about-me-sections .education-section .title {
+      position: relative;
+      margin-bottom: 35px; }
+      .jayo-about-me-template .about-me-sections .experience-section .title i,
+      .jayo-about-me-template .about-me-sections .education-section .title i {
+        color: #222;
+        font-size: 32px;
+        line-height: 32px; }
+      .jayo-about-me-template .about-me-sections .experience-section .title h4,
+      .jayo-about-me-template .about-me-sections .education-section .title h4 {
+        font-size: 1.250em; }
+      .jayo-about-me-template .about-me-sections .experience-section .title span,
+      .jayo-about-me-template .about-me-sections .education-section .title span {
+        display: inline-block;
+        height: 2px;
+        width: 15px;
+        background: #222;
+        margin: 5px auto 0; }
+    .jayo-about-me-template .about-me-sections .experience-section .experience-sections,
+    .jayo-about-me-template .about-me-sections .experience-section .education-sections,
+    .jayo-about-me-template .about-me-sections .education-section .experience-sections,
+    .jayo-about-me-template .about-me-sections .education-section .education-sections {
+      margin: -15px; }
+      .jayo-about-me-template .about-me-sections .experience-section .experience-sections figure,
+      .jayo-about-me-template .about-me-sections .experience-section .education-sections figure,
+      .jayo-about-me-template .about-me-sections .education-section .experience-sections figure,
+      .jayo-about-me-template .about-me-sections .education-section .education-sections figure {
+        padding: 40px 15px;
+        margin-bottom: 40px;
+        background: #f9f9f9; }
+        .jayo-about-me-template .about-me-sections .experience-section .experience-sections figure h5,
+        .jayo-about-me-template .about-me-sections .experience-section .education-sections figure h5,
+        .jayo-about-me-template .about-me-sections .education-section .experience-sections figure h5,
+        .jayo-about-me-template .about-me-sections .education-section .education-sections figure h5 {
+          font-size: 15px;
+          margin: 0 0 2px; }
+        .jayo-about-me-template .about-me-sections .experience-section .experience-sections figure p.years,
+        .jayo-about-me-template .about-me-sections .experience-section .education-sections figure p.years,
+        .jayo-about-me-template .about-me-sections .education-section .experience-sections figure p.years,
+        .jayo-about-me-template .about-me-sections .education-section .education-sections figure p.years {
+          margin: 0 0 5px; }
+        .jayo-about-me-template .about-me-sections .experience-section .experience-sections figure p.workplace,
+        .jayo-about-me-template .about-me-sections .experience-section .experience-sections figure p.school,
+        .jayo-about-me-template .about-me-sections .experience-section .education-sections figure p.workplace,
+        .jayo-about-me-template .about-me-sections .experience-section .education-sections figure p.school,
+        .jayo-about-me-template .about-me-sections .education-section .experience-sections figure p.workplace,
+        .jayo-about-me-template .about-me-sections .education-section .experience-sections figure p.school,
+        .jayo-about-me-template .about-me-sections .education-section .education-sections figure p.workplace,
+        .jayo-about-me-template .about-me-sections .education-section .education-sections figure p.school {
+          margin: 0;
+          color: #222;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 500; }
+        .jayo-about-me-template .about-me-sections .experience-section .experience-sections figure p.subtitle,
+        .jayo-about-me-template .about-me-sections .experience-section .education-sections figure p.subtitle,
+        .jayo-about-me-template .about-me-sections .education-section .experience-sections figure p.subtitle,
+        .jayo-about-me-template .about-me-sections .education-section .education-sections figure p.subtitle {
+          margin: 0 0 15px; }
+  @media only screen and (max-width: 767px) {
+    .jayo-about-me-template .about-me-sections .education-section {
+      padding-bottom: 50px; } }
+.jayo-about-me-template .bars {
+  margin-top: 60px;
+  padding-bottom: 100px; }
+  @media only screen and (max-width: 767px) {
+    .jayo-about-me-template .bars {
+      margin-top: 30px;
+      padding-bottom: 50px; } }
+  .jayo-about-me-template .bars figure {
+    position: relative;
+    height: 3px;
+    width: 100%;
+    margin-bottom: 68px;
+    background-color: #f8f8f8;
+    box-sizing: border-box; }
+    .jayo-about-me-template .bars figure span {
+      position: absolute;
+      top: -30px;
+      left: 0;
+      margin: 0;
+      font-size: 1.000em;
+      font-weight: 500;
+      color: #222; }
+    .jayo-about-me-template .bars figure .skill-bar {
+      position: relative;
+      height: 3px;
+      width: 0;
+      background: #111; }
+    .jayo-about-me-template .bars figure:last-child {
+      margin-bottom: 0; }
+
+/* 2.3 - About/Services */
+.jayo-about-us-template .services.about-section figure {
+  margin: 15px 0; }
+  .jayo-about-us-template .services.about-section figure .title {
+    position: relative; }
+    .jayo-about-us-template .services.about-section figure .title i {
+      color: #222;
+      display: inline-block;
+      font-size: 32px;
+      line-height: 32px; }
+    .jayo-about-us-template .services.about-section figure .title h4 {
+      font-size: 1.250em;
+      display: inline-block;
+      margin-left: 15px; }
+  .jayo-about-us-template .services.about-section figure p {
+    margin: 5px 0 0; }
+
+/* 2.4 - About/Team */
+.jayo-about-us-template .team .members {
+  margin: -15px; }
+  .jayo-about-us-template .team .members figure {
+    position: relative;
+    padding: 15px; }
+    .jayo-about-us-template .team .members figure .img-wrapper {
+      position: relative; }
+      .jayo-about-us-template .team .members figure .img-wrapper img {
+        width: 100%; }
+    .jayo-about-us-template .team .members figure .description {
+      padding: 20px 10px; }
+      .jayo-about-us-template .team .members figure .description h4 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700; }
+      .jayo-about-us-template .team .members figure .description p.title {
+        margin: 3px 0 0;
+        font-size: 15px; }
+      .jayo-about-us-template .team .members figure .description p.content {
+        margin: 8px 0 0; }
+      .jayo-about-us-template .team .members figure .description .social-media {
+        margin: 15px 0 0; }
+        .jayo-about-us-template .team .members figure .description .social-media li {
+          display: inline-block; }
+          .jayo-about-us-template .team .members figure .description .social-media li a {
+            font-size: 14px;
+            padding: 0 8px 0 0;
+            color: #333; }
+            .jayo-about-us-template .team .members figure .description .social-media li a:hover {
+              color: #000; }
+
+/* 2.5 - Contact/Contact Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%; }
+.contact-form .col-md-6 {
+  margin-bottom: 15px; }
+.contact-form .form-control {
+  padding: 12px 20px;
+  border-width: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  height: auto;
+  background: #f1f1f1;
+  font-size: 13px; }
+  .contact-form .form-control:focus {
+    border-width: 0;
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    transition: all 0s ease;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none; }
+.contact-form .submit {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  height: 50px;
+  width: 200px;
+  border-width: 0;
+  margin: 15px auto 0;
+  background: #f1f1f1;
+  display: block; }
+  .contact-form .submit:hover {
+    background: #222;
+    color: #fff;
+    cursor: pointer; }
+
+/* 2.6 - Contact/Section */
+.jayo-contact-template .information.contact-section figure {
+  margin: 0 0 30px;
+  position: relative; }
+  .jayo-contact-template .information.contact-section figure i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #222;
+    font-size: 24px;
+    line-height: 24px; }
+  .jayo-contact-template .information.contact-section figure h4 {
+    font-size: 1.250em;
+    margin-left: 50px; }
+  .jayo-contact-template .information.contact-section figure p {
+    margin: 5px 0 0 50px; }
+
+/* 2.7 - Navigation/Icon */
+.jayo-menu-wrapper .jayo-nav-icon {
+  position: relative;
+  height: 17px;
+  width: 26px;
+  margin-top: 8px;
+  float: right;
+  cursor: pointer;
+  z-index: 999; }
+  .jayo-menu-wrapper .jayo-nav-icon span {
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 26px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: #111;
+    border-radius: 2px;
+    z-index: 1; }
+  .jayo-menu-wrapper .jayo-nav-icon span:nth-child(1) {
+    top: 0px; }
+  .jayo-menu-wrapper .jayo-nav-icon span:nth-child(2) {
+    top: 7px;
+    height: 3px;
+    width: 15px; }
+  .jayo-menu-wrapper .jayo-nav-icon span:nth-child(3) {
+    top: 14px;
+    height: 3px;
+    width: 22px; }
+  .jayo-menu-wrapper .jayo-nav-icon.open span:nth-child(1) {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .jayo-menu-wrapper .jayo-nav-icon.open span:nth-child(2) {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 3px;
+    width: 26px; }
+  .jayo-menu-wrapper .jayo-nav-icon.open span:nth-child(3) {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0; }
+
+/* 2.8 - Navigation/Main */
+.jayo-menu-wrapper {
+  position: relative;
+  height: 32px;
+  margin: 63px 0 0; }
+  @media only screen and (max-width: 767px) {
+    .jayo-menu-wrapper {
+      margin: 33px 0 0; } }
+  .jayo-menu-wrapper .jayo-menu {
+    position: absolute;
+    top: 40px;
+    right: -15px;
+    background: #222;
+    width: 190px;
+    height: auto;
+    display: none;
+    z-index: 998;
+    text-align: right;
+    padding: 30px 0;
+    margin-top: 20px;
+    -webkit-transition: margin 0.5s ease;
+    -moz-transition: margin 0.5s ease;
+    transition: margin 0.5s ease; }
+    @media only screen and (max-width: 767px) {
+      .jayo-menu-wrapper .jayo-menu {
+        position: absolute;
+        top: 40px;
+        right: 15px; } }
+    .jayo-menu-wrapper .jayo-menu.open {
+      margin-top: 0; }
+    .jayo-menu-wrapper .jayo-menu .no-menu {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 100%; }
+    .jayo-menu-wrapper .jayo-menu ul.menu {
+      padding: 0;
+      list-style-type: none; }
+      .jayo-menu-wrapper .jayo-menu ul.menu li.menu-item {
+        display: block;
+        line-height: 1; }
+        .jayo-menu-wrapper .jayo-menu ul.menu li.menu-item a {
+          color: #939393;
+          padding: 5px 30px;
+          font-size: 15px;
+          line-height: 15px;
+          display: block; }
+          .jayo-menu-wrapper .jayo-menu ul.menu li.menu-item a:hover {
+            color: #f1f1f1; }
+        .jayo-menu-wrapper .jayo-menu ul.menu li.menu-item.current_page_item a {
+          color: #f1f1f1; }
+
+/* 2.9 - Navigation/Posts */
+.jayo-posts-page .navigation,
+.jayo-portfolio-template .navigation {
+  position: relative;
+  padding-top: 40px;
+  display: block;
+  text-align: center;
+  display: none; }
+  .jayo-posts-page .navigation a,
+  .jayo-portfolio-template .navigation a {
+    padding: 10px 18px;
+    margin-right: 20px;
+    background: #f1f1f1;
+    display: inline-block; }
+    .jayo-posts-page .navigation a:last-child,
+    .jayo-portfolio-template .navigation a:last-child {
+      margin: 0; }
+    .jayo-posts-page .navigation a:hover,
+    .jayo-portfolio-template .navigation a:hover {
+      color: #fff;
+      background: #111; }
+  .jayo-posts-page .navigation span,
+  .jayo-portfolio-template .navigation span {
+    display: inline-block;
+    padding: 0 20px; }
+
+#infscr-loading {
+  opacity: 0; }
+
+/* 2.10 - Portfolio/Filter */
+.jayo-portfolio-template .filter {
+  position: relative;
+  margin-bottom: 30px;
+  list-style: none;
+  padding: 0; }
+  .jayo-portfolio-template .filter li {
+    padding: 0;
+    display: inline-block; }
+    .jayo-portfolio-template .filter li a {
+      margin: 0 10px 5px 0;
+      padding: 5px 10px;
+      font-size: 13px;
+      display: inline-block;
+      line-height: 1;
+      position: relative;
+      text-transform: lowercase;
+      color: #939393; }
+    .jayo-portfolio-template .filter li.active a {
+      color: #f1f1f1;
+      background: #111; }
+    .jayo-portfolio-template .filter li:last-child {
+      margin: 0; }
+  .jayo-portfolio-template .filter.active {
+    left: 80px; }
+
+/* 2.11 - Portfolio/Grid */
+.jayo-portfolio-template {
+  padding-right: 15px;
+  padding-left: 15px; }
+  .jayo-portfolio-template .items {
+    margin: -15px; }
+    .jayo-portfolio-template .items figure.item {
+      margin: 15px 0; }
+      .jayo-portfolio-template .items figure.item a {
+        position: relative;
+        overflow: hidden;
+        display: block; }
+      .jayo-portfolio-template .items figure.item img {
+        width: 100%;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      .jayo-portfolio-template .items figure.item .caption {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        background-color: rgba(250, 250, 250, 0.95);
+        opacity: 0; }
+        .jayo-portfolio-template .items figure.item .caption .wrapper {
+          position: relative;
+          top: 50%;
+          width: 100%;
+          padding: 10px;
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+          text-align: center; }
+          .jayo-portfolio-template .items figure.item .caption .wrapper h4 {
+            margin: 0;
+            font-size: 15px;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 2px; }
+          .jayo-portfolio-template .items figure.item .caption .wrapper ul.tags {
+            margin: 5px 0 0;
+            padding: 0;
+            display: block;
+            text-transform: lowercase;
+            font-size: 13px;
+            color: #777; }
+            .jayo-portfolio-template .items figure.item .caption .wrapper ul.tags li {
+              display: inline-block; }
+              .jayo-portfolio-template .items figure.item .caption .wrapper ul.tags li:after {
+                padding: 0 5px;
+                content: '/'; }
+              .jayo-portfolio-template .items figure.item .caption .wrapper ul.tags li:last-child:after {
+                padding: 0;
+                content: ''; }
+      .jayo-portfolio-template .items figure.item:hover .caption {
+        opacity: 1; }
+    .jayo-portfolio-template .items.alt figure.item .caption {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      background-color: #fafafa;
+      width: auto;
+      height: auto; }
+      .jayo-portfolio-template .items.alt figure.item .caption .wrapper {
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 10px;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        text-align: left; }
+        .jayo-portfolio-template .items.alt figure.item .caption .wrapper h4 {
+          text-transform: lowercase;
+          font-size: 12px; }
+        .jayo-portfolio-template .items.alt figure.item .caption .wrapper ul.tags {
+          display: none; }
+
+/* 2.12 - Preloader/Circle */
+.jayo-preloader .animation.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -18px;
+  margin-left: -18px;
+  height: 36px;
+  width: 36px;
+  border-color: #eee #eee #111 #111;
+  border-style: solid;
+  border-width: 4px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  -webkit-animation: circle-animation 0.6s infinite linear;
+  -moz-animation: circle-animation 0.6s infinite linear;
+  animation: circle-animation 0.6s infinite linear;
+  background: transparent; }
+
+@-webkit-keyframes circle-animation {
+  to {
+    -webkit-transform: rotate(360deg); } }
+@-moz-keyframes circle-animation {
+  to {
+    -moz-transform: rotate(360deg); } }
+@keyframes circle-animation {
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+/* 2.14 - Preloader/Main */
+.jayo-preloader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000; }
+
+/* 3.0 - Layout */
+/* 3.1 - Header/Page */
+.jayo-page-header {
+  margin-top: 60px; }
+  .jayo-page-header .caption h2 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 400; }
+  .jayo-page-header .caption p {
+    margin: 10px 0 0;
+    color: #A8A8A8;
+    font-size: 22px;
+    line-height: 1.3; }
+  @media only screen and (max-width: 480px) {
+    .jayo-page-header .caption h2 {
+      font-size: 32px; }
+    .jayo-page-header .caption p {
+      font-size: 18px; } }
+  .jayo-page-header img {
+    margin-top: 40px;
+    margin-bottom: 20px; }
+  .jayo-page-header.image, .jayo-page-header.slider {
+    margin: 0 0 20px;
+    position: relative; }
+    .jayo-page-header.image .item, .jayo-page-header.slider .item {
+      height: 750px;
+      position: relative;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media only screen and (max-width: 480px) {
+        .jayo-page-header.image .item, .jayo-page-header.slider .item {
+          height: 500px; } }
+      .jayo-page-header.image .item .caption, .jayo-page-header.slider .item .caption {
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        opacity: 0;
+        margin-top: 20px;
+        -webkit-transition: all 0.3s ease 0.8s;
+        -moz-transition: all 0.3s ease 0.8s;
+        transition: all 0.3s ease 0.8s; }
+        .jayo-page-header.image .item .caption h2, .jayo-page-header.slider .item .caption h2 {
+          margin: 0;
+          letter-spacing: 1.5px;
+          font-size: 2.125em;
+          font-weight: 400; }
+        .jayo-page-header.image .item .caption p, .jayo-page-header.slider .item .caption p {
+          margin: 10px 0 0;
+          color: #A8A8A8;
+          font-size: 18px;
+          line-height: 1.3; }
+    .jayo-page-header.image:hover .owl-dots, .jayo-page-header.slider:hover .owl-dots {
+      opacity: 1;
+      bottom: 20px; }
+    .jayo-page-header.image .owl-item.active .item .caption, .jayo-page-header.slider .owl-item.active .item .caption {
+      opacity: 1;
+      margin-top: 0; }
+  .jayo-page-header.image .item .caption {
+    opacity: 1;
+    margin-top: 0; }
+
+/* 3.2 - Header/Site */
+.jayo-site-header {
+  margin: 0 auto; }
+  .jayo-site-header .site-brand {
+    height: 32px;
+    margin: 63px 0 0; }
+    @media only screen and (max-width: 767px) {
+      .jayo-site-header .site-brand {
+        margin: 33px 0 0; } }
+    .jayo-site-header .site-brand img {
+      max-height: 32px; }
+    .jayo-site-header .site-brand h1 {
+      margin: 0;
+      line-height: 32px;
+      font-size: 24px; }
+    .jayo-site-header .site-brand a {
+      height: 32px;
+      display: inline-block; }
+  .jayo-site-header.image, .jayo-site-header.slider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999; }
+    @media only screen and (max-width: 767px) {
+      .jayo-site-header.image, .jayo-site-header.slider {
+        width: 100%; } }
+
+/* 3.3 - Footer */
+.jayo-site-footer {
+  position: relative; }
+  .jayo-site-footer .widgets {
+    background: #f9f9f9;
+    padding: 60px 0 40px; }
+    .jayo-site-footer .widgets .widget {
+      padding-bottom: 30px; }
+      .jayo-site-footer .widgets .widget h4.widget-title {
+        position: relative;
+        margin-bottom: 15px;
+        font-size: 1.250em; }
+      .jayo-site-footer .widgets .widget ul.list {
+        margin: 0;
+        padding: 0; }
+        .jayo-site-footer .widgets .widget ul.list li {
+          list-style: none;
+          margin-bottom: 10px; }
+          .jayo-site-footer .widgets .widget ul.list li a {
+            color: #777; }
+            .jayo-site-footer .widgets .widget ul.list li a:hover {
+              color: #303133; }
+          .jayo-site-footer .widgets .widget ul.list li:last-child {
+            border-bottom-width: 0; }
+          .jayo-site-footer .widgets .widget ul.list li .sub-menu {
+            display: none; }
+  .jayo-site-footer .copyright-area {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 20px 0; }
+    .jayo-site-footer .copyright-area .copyright {
+      padding: 5px 0; }
+    .jayo-site-footer .copyright-area .social-media {
+      margin: 0;
+      padding: 5px 0; }
+      .jayo-site-footer .copyright-area .social-media li {
+        display: inline-block; }
+        .jayo-site-footer .copyright-area .social-media li a {
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          font-size: 16px;
+          margin: 0 5px; }
+
+/* 3.4 - Section Title */
+.jayo-about-us-template .section-title,
+.jayo-about-me-template .section-title,
+.jayo-contact-template .section-title,
+.jayo-portfolio-template .section-title {
+  position: relative;
+  padding-bottom: 40px; }
+  .jayo-about-us-template .section-title h3,
+  .jayo-about-me-template .section-title h3,
+  .jayo-contact-template .section-title h3,
+  .jayo-portfolio-template .section-title h3 {
+    position: relative;
+    margin: 0 0 5px;
+    font-size: 1.625em; }
+  .jayo-about-us-template .section-title p,
+  .jayo-about-me-template .section-title p,
+  .jayo-contact-template .section-title p,
+  .jayo-portfolio-template .section-title p {
+    margin: 0; }
+
+.jayo-about-me-template .section-title {
+  padding-bottom: 100px; }
+  @media only screen and (max-width: 767px) {
+    .jayo-about-me-template .section-title {
+      padding-bottom: 50px; } }
+
+/* 3.5 - Site */
+.site {
+  position: relative; }
+
+.site-main {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  overflow: hidden; }
+
+.site-main.content-empty {
+  text-align: center;
+  padding: 80px 0 !important; }
+
+/* 4.0 - Pages */
+/* 4.1 - About */
+.jayo-about-us-template .about-section {
+  padding-bottom: 80px;
+  display: block; }
+  .jayo-about-us-template .about-section:last-child {
+    padding-bottom: 0; }
+
+/* 4.2 - Posts */
+.jayo-posts-page.blog-masonry {
+  padding-right: 15px;
+  padding-left: 15px; }
+.jayo-posts-page .blog-items .item .description {
+  padding: 30px 10px 50px; }
+  .jayo-posts-page .blog-items .item .description h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #222; }
+  .jayo-posts-page .blog-items .item .description p.date {
+    margin: 8px 0 10px;
+    color: #555;
+    font-size: 1.000em;
+    line-height: 1; }
+  .jayo-posts-page .blog-items .item .description p {
+    margin: 15px 0 0; }
+.jayo-posts-page .blog-items {
+  margin-bottom: -50px; }
+.jayo-posts-page .navigation {
+  position: relative;
+  padding-top: 40px;
+  display: none;
+  text-align: center; }
+  .jayo-posts-page .navigation a {
+    padding: 10px 18px;
+    margin-right: 20px;
+    background: #f1f1f1;
+    display: inline-block; }
+    .jayo-posts-page .navigation a:last-child {
+      margin: 0; }
+    .jayo-posts-page .navigation a:hover {
+      color: #fff;
+      background: #111; }
+  .jayo-posts-page .navigation span {
+    display: inline-block;
+    padding: 0 20px; }
+  .jayo-posts-page .navigation.infinite_scroll {
+    display: none; }
+
+/* 4.3 - Single/Portfolio */
+.single-portfolio .site-main .embed-container,
+.single-post .site-main .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto; }
+  .single-portfolio .site-main .embed-container iframe,
+  .single-portfolio .site-main .embed-container object,
+  .single-portfolio .site-main .embed-container embed,
+  .single-post .site-main .embed-container iframe,
+  .single-post .site-main .embed-container object,
+  .single-post .site-main .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+.single-portfolio .site-main .post-single-slideshow .owl-dots,
+.single-post .site-main .post-single-slideshow .owl-dots {
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .single-portfolio .site-main .post-single-slideshow .owl-dots .owl-dot,
+  .single-post .site-main .post-single-slideshow .owl-dots .owl-dot {
+    display: inline-block; }
+    .single-portfolio .site-main .post-single-slideshow .owl-dots .owl-dot span,
+    .single-post .site-main .post-single-slideshow .owl-dots .owl-dot span {
+      width: 22px;
+      height: 2px;
+      margin: 0 3px;
+      background: #777;
+      display: block; }
+.single-portfolio .site-main .post-single-slideshow .owl-dots .owl-dot.active span, .single-portfolio .site-main .post-single-slideshow .owl-theme .owl-dots .owl-dot:hover span,
+.single-post .site-main .post-single-slideshow .owl-dots .owl-dot.active span,
+.single-post .site-main .post-single-slideshow .owl-theme .owl-dots .owl-dot:hover span {
+  background: #222; }
+.single-portfolio .site-main .post-single-slideshow:hover .owl-dots,
+.single-post .site-main .post-single-slideshow:hover .owl-dots {
+  opacity: 1;
+  bottom: 20px; }
+.single-portfolio .site-main .thumb,
+.single-post .site-main .thumb {
+  text-align: center; }
+.single-portfolio .site-main .main-content,
+.single-post .site-main .main-content {
+  padding-top: 60px; }
+  .single-portfolio .site-main .main-content .tags,
+  .single-post .site-main .main-content .tags {
+    margin-top: 20px; }
+    .single-portfolio .site-main .main-content .tags a,
+    .single-post .site-main .main-content .tags a {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 8px 14px;
+      background: #f1f1f1;
+      display: inline-block;
+      line-height: 1; }
+      .single-portfolio .site-main .main-content .tags a:hover,
+      .single-post .site-main .main-content .tags a:hover {
+        background: #111;
+        color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

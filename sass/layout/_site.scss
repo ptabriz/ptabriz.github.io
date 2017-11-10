@@ -1,0 +1,16 @@
+/* 3.5 - Site */
+
+.site {
+  @include position(relative, null);
+}
+
+.site-main {
+	padding-top: 60px;
+	padding-bottom: 80px;
+	overflow: hidden;
+}
+
+.site-main.content-empty {
+  text-align: center;
+  padding: 80px 0 !important;
+}

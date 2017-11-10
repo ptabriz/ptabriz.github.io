@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+		<title>Jayo - Minimal</title>
+		<link rel="shortcut icon" href="img/favicon.png">
+
+		<!-- CSS Styles -->
+		<link rel='stylesheet' id='quicksand-google-font'  href='https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700' type='text/css' media='all' />
+		<link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='font-awesome-css'  href='css/font-awesome.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='fontello-css'  href='css/fontello.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='owl-carousel-css'  href='css/owl.carousel.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='owl-carousel-theme-css'  href='css/owl.theme.default.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='main-styles-css'  href='css/main.css' type='text/css' media='all' />
+		<!-- End Styles -->
+
+	</head>
+
+	<body>
+
+		<!-- Preloader -->
+		<div class="jayo-preloader">
+			<div class="animation circle"></div>
+		</div>
+		<!-- -->
+
+		<div id="page" class="site">
+
+			<header id="masthead" class="jayo-site-header container basic">
+				<div class="row">
+
+					<!-- Logo -->
+					<!--div class="site-brand col-6">
+						<a href="index.html">
+							<img src="img/logo.png" alt="logo"/>
+						</a>
+					</div>
+					<!-- -->
+
+					<!-- Navigation -->
+					<div class="jayo-menu-wrapper col-6">
+						<div class="jayo-nav-icon closed">
+	  						<span></span>
+	  						<span></span>
+	  						<span></span>
+						</div>
+						<div class="jayo-menu">
+							<ul id="menu-main-menu" class="menu">
+								<li class="menu-item"><a href="index-slider.html">Home</a></li>
+								<li class="menu-item current_page_item"><a href="portfolio-3-columns.html">Portfolio</a></li>
+								<!--li class="menu-item current_page_item"><a href="portfolio-2-columns.html">Workshops and talks</a></li>!-->
+								<li class="menu-item"><a href="about-me.html">About Me</a></li>
+								<!--li class="menu-item"><a href="blog-3-columns.html">Blog</a></li> !-->
+								<li class="menu-item"><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- -->
+
+				</div>
+			</header>
+
+			<div id="content" class="site-content">
+
+				<!-- Header -->
+				<div class="jayo-page-header container">
+					<div class="caption">
+						<h2>Simulating and validating High-precision viewscapes for urban landscape </h2>
+						<p>Posted on November 9, 2017</p>
+					</div>
+				</div>
+				<!-- -->
+
+				<section id="primary" class="single-post">
+    				<main id="main" class="site-main" role="main">
+        				<article class="container">
+            				<div class="thumb">
+											<div class="sketchfab-embed-wrapper"><iframe width="1500" height="480" src="https://sketchfab.com/models/538782313c884764a0f300dc26644b91/embed?autostart=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+												<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+											<a href="https://sketchfab.com/models/538782313c884764a0f300dc26644b91?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Dix_park_cofee_viz</a>
+									by <a href="https://sketchfab.com/ptabriz?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">ptabriz</a>
+							on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+		</p>
+		</div>
+            				</div>
+            				<div class="main-content">
+                				<div class="content clearfix">
+	                				<h3>Intro</h3>
+
+									<p>Viewscape modelling- a process of defining, parsing and analysis of landscape visual space’s structure within GIS- has been commonly used in applications ranging from landscape planning and ecosystem services assessment to geography and archaeology. However, less effort has been made to understand whether and to what extent these objective analyses predict actual on-the-ground perception of human observer. Moreover, viewshed modelling at the human-scale level require incorporation of fine-grained landscape structure (eg., vegetation) and patterns (e.g, landcover) that are typically omitted from visibility calculations or unrealistically simulated leading to significant error in predicting visual attributes.
+									This project illustrates how photorealistic Immersive Virtual Environments and high-resolution geospatial data can be used to integrate objective and subjective assessments of visual characteristics at the human-scale level.
+ </p>
+									</div>
+
+            			<div class="main-content">
+									<div class="content clearfix">
+
+									<h3>Methods</h3>
+									<br>
+									<h5>1. High reolution surface modelling using airborne Lidar</h5>
+
+										<p>High-density Lidar points (2 pulse per square meter) were interpolated to generate a 0.5 meters
+											digital model of the surface (DSM) including ground surface, vegetation and buildings.</p>
+
+									<figure id="attachment_26">
+												<a href="img/portfolio/viewscape_1.jpg">
+													<img src="img/portfolio/viewscape_1.jpg" style= "float" />
+													<figcaption> <strong> Figure. </strong> 3D view of the digital surface model</figcaption>
+												</a>
+
+									</div>
+
+									<div class="content clearfix">
+									<br>
+									<h5>2. Image segmentation & landcover classificiation </h5>
+
+										<p>
+											High resolution landcover map was acquired through fusion of
+											1) vegetation coverage generated form Lidar vector points
+											2) pervious ground cover including grasslands, shrubs and unpaved pathways (baren) digitized over the orthoimagery
+											3) buildings and streets retrieved from city of Raleigh GIS.
+										</p>
+
+									<figure id="attachment_26">
+													<a href="img/portfolio/viewscape_3.jpg">
+														<img src="img/portfolio/viewscape_3.jpg" style= "float" />
+														<figcaption><strong> Figure. </strong> Landcover generation process
+																			(a) Vegetation derived from lidar points.
+																			(b) Ground cover digitized over high resolution imagery (1ft).
+																			(c) Roads and buildings rasterized from official vector data
+																			(d) Classified landcover after fusion of individual layers
+														</figcaption>
+													</a>
+
+
+									</div>
+
+									<div class="content clearfix">
+									<br>
+
+									<h5>3. Tree segmentation and stem detection </h5>
+									  <p>
+											Tree-stem detection method was used to account for visibility obstruction of various vegetation structures in winter season.
+										</p>
+
+
+										<figure id="attachment_26">
+														<a href="img/portfolio/viewscape_4.jpg">
+															<center><img src="img/portfolio/viewscape_4.jpg" width="600"/></center>
+															<figcaption> <strong> Figure. </strong> Landcover generation process
+																				(a) Vegetation derived from lidar points.
+																				(b) Ground cover digitized over high resolution imagery (1ft).
+																				(c) Roads and buildings rasterized from official vector data
+																				(d) Classified landcover after fusion of individual layers
+															</figcaption>
+														</a>
+									</div>
+
+									<div class="content clearfix">
+									<br>
+										<h5> 4. Viewshed computation </h5>
+											<p> Viewshed analysis for a single viewpoint was performed based on an average american observer (1.75m height) and viewing distance of 1 km. The acquired viewshed was combined with landcover map to acquire the visible landcover map. </p>
+
+											<figure id="attachment_26">
+															<a href="img/portfolio/viewscape_4.jpg">
+																<center><img src="img/portfolio/viewscape_5.jpg" width="1200"/></center>
+
+
+											<br>
+
+											<iframe src="https://360player.io/p/UUPC9m/" frameborder="0" width=1500 height=315 allowfullscreen data-token="UUPC9m"></iframe>
+											</iframe>
+											<strong> Figure. </strong> Top: Example viewscape computed from a viewpoint (red cross), Bottom : panoramic view of the same viewpoint
+
+															</a>
+
+
+										<div class="content clearfix">
+										<br>
+										<br>
+
+										<h5> 5. Viewscape analysis </h5>
+												<p> Spatial statistics and landscape structure anlaysis were applied to the visible landcover map to estimate the degree of visual scale (e.g., openness), complexity and naturalness. </p>
+												<br>
+												<figure id="attachment_26">
+																<a href="img/portfolio/viewscape_9.jpg">
+																	<center><img src="img/portfolio/viewscape_9.jpg" width = "800"/></center>
+
+																	<figcaption> <strong> Figure. </strong> Variation of visual scale across dimesions of viewshed size and depth variability
+																	</figcaption>
+<br>
+												<figure id="attachment_27">
+																					<a href="img/portfolio/viewscape_8.jpg">
+																						<center><img src="img/portfolio/viewscape_8.jpg"/></center>
+																						<figcaption> <strong> Figure. </strong> Variation in predicted naturalness based on proportion of natural vegetation cover
+																						</figcaption>
+<br>
+											<figure id="attachment_28">
+																				<a href="img/portfolio/viewscape_7.jpg">
+																					<center><img src="img/portfolio/viewscape_7.jpg" /></center>
+																					<figcaption> <strong> Figure. </strong> Example of variations in viewscape complexity
+																					</figcaption>
+</div>
+<div class="content clearfix">
+<br>
+<br>
+										<h5> 6. Site sampling and batch processing </h5>
+												<p> Using a python script steps 4 and 5 were repeated for 340 sampling points that were generated through overalying a hexagonal grid on the site.  </p>
+
+												<figure id="attachment_28">
+																<a href="img/portfolio/viewscape_11.jpg">
+																	<img src="img/portfolio/viewscape_11.jpg" align ="left" width = "550"/>
+
+													<figure id="attachment_29">
+																					<a href="img/portfolio/viewscape_10.jpg">
+																						<img src="img/portfolio/viewscape_10.jpg" align ="right" width = "550"/>
+<br>
+																	 <strong> Figure. </strong> left: batch processing workflow, right: sampled points
+
+<br>
+</div>
+
+<div class="content clearfix">
+<br>
+										<h5> 7. IVE image acquisition </h5>
+														<p> Based on the anaylsis results 24 points were selected representing variations of visual scale,
+															complexity and naturalness. These locations were geocoded and for each location 360 imagery was
+															captured using a DSLR camera mounted on a GIGAPAN robot. </p>
+
+															<div class="content clearfix">
+																	<iframe src="https://360player.io/p/hcLv9K/" frameborder="0" width=550px height=250 align = "left" allowfullscreen data-token="hcLv9K"></iframe>
+																	</iframe>
+
+																	<iframe src="https://360player.io/p/aJY8U3/" frameborder="0" width=550px height=250 align = "right" allowfullscreen data-token="aJY8U3" name= "jafar"></iframe>
+																	</iframe>
+
+																	<p>High complexity, medium naturalness, high visual access
+																		 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+																		Medium complexity, low naturalness, medium visual access</p>
+
+																		<br>
+															<div class="content clearfix">
+																	<iframe src="https://360player.io/p/jwFc2d/" frameborder="0" width=550px height=250 align = "left" allowfullscreen data-token="jwFc2d"></iframe>
+																	</iframe>
+																	<iframe src="https://360player.io/p/rMeBHm/" frameborder="0" width=550px height=250 align = "right" allowfullscreen data-token="rMeBHm"></iframe>
+																	</iframe>
+																	<p>Medium complexity, high naturalness, low visual access
+																		 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+																		High complexity, medium naturalness, high visual access</p>
+
+
+																	</div>
+</div>
+										<h5> 8. Psycological experiment </h5>
+														<p> In a controlled lab experiment, 100 participants were asked to experience and rate the IVE images based on ten perceptual and cognitive measures (below, right).
+															A virtual reality development application was utilized to implement the on-screen survey and for recording the responses. </p>
+
+															<table border = "1">
+												         <tr>
+												            <td>Naturalness
+												            <td>I perceive this environment as … Not natural = 0 , Natural =10
+												        </td>
+												         </tr>
+
+												         <tr>
+												             <td>Preference
+												            <td>I like this environment
+
+												         </tr>
+												         <tr>
+												             <td>Coherence
+												            <td>Everything I see in this environment goes well together.
+												         </tr>
+												         <tr>
+												             <td>Safety
+												            <td>I feel safe to spend time alone in this place during day
+
+												         </tr>
+
+												         <tr>
+												             <td>Complexity
+
+												            <td>I perceive this environments as . . . Simple=0, Complex=10
+
+												         </tr>
+
+												         <tr>
+												             <td>Being away
+
+												            <td>Spending time here gives me a good break from my day-to-day routine
+
+
+												         </tr>
+
+												         <tr>
+												             <td>Fascination
+												            <td>There is much to explore and discover here
+												         </tr>
+
+												         <tr>
+												             <td>Visual access
+
+												            <td>How well can you see all parts of this setting without having your view blocked or interfered with?
+
+												         </tr>
+
+
+												      </table>
+<br>
+												<figure id="attachment_27">
+
+													<a href="img/portfolio/viewscape_16.jpg">
+														<center><img src="img/portfolio/viewscape_16.jpg" width="500"/></center>
+
+													</a>
+									</div>
+
+<h3>Resources</h3>
+									<li>
+											[Paper] Manuscript under review</li>
+									<li><a href="https://github.com/ptabriz/Viewshed_analysis">
+											[Github] Python code for viewscape analysis in GRASS GIS </li>
+									</div>
+
+
+            				</div>
+
+				</section>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="jayo-site-footer">
+			<div class="copyright-area">
+				<div class="container">
+					<ul class="social-media list-unstyled">
+						<li><a href="https://www.facebook.com/payam.tb/media_set?set=a.10150277763005023.526086.718030022&type=3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://twitter.com/Payam_tabrizian" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/payam-tabrizian-22225832/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/ptabriz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+					</ul>
+					<div class="copyright">© 2017 Payam Tabrizian</div>
+				</div>
+			</div>
+
+		</footer>
+		<!-- End Footer -->
+
+		<!-- Start JS (placed at bottom for better page speed) -->
+		<!-- jQuery -->
+		<script type='text/javascript' src='js/jquery-3.2.1.min.js'></script>
+		<script type='text/javascript' src='js/jquery-migrate-1.4.1.min.js'></script>
+		<script type='text/javascript' src='js/jquery.appear.js'></script>
+		<script type='text/javascript' src='js/jquery.infinitescroll.js'></script>
+		<!-- -->
+		<script type='text/javascript' src='js/bootstrap.min.js'></script>
+		<script type='text/javascript' src='js/imagesloaded.pkgd.min.js'></script>
+		<script type='text/javascript' src='js/isotope.pkgd.min.js'></script>
+		<script type='text/javascript' src='js/owl.carousel.min.js'></script>
+		<script type='text/javascript' src='js/jayo-main.js'></script>
+		<!-- -->
+
+	</body>
+</html>

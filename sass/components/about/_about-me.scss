@@ -1,0 +1,113 @@
+/* 2.2 - About/Me */
+
+.jayo-about-me-template {
+
+  .about-me-sections {
+    margin: 0 -50px;
+
+    .experience-section,
+    .education-section {
+      padding: 0 50px;
+      text-align: center;
+
+      .title {
+        position: relative;
+        margin-bottom: 35px;
+
+        i {
+          color: #222;
+          font-size: 32px;
+          line-height: 32px;
+        }
+
+        h4 {
+          font-size: 1.250em;
+        }
+
+        span {
+          display: inline-block;
+          height: 2px;
+          width: 15px;
+          background: #222;
+          margin: 5px auto 0;
+        }
+
+      }
+
+      .experience-sections,
+      .education-sections {
+        margin: -15px;
+
+        figure {
+          padding: 40px 15px;
+          margin-bottom: 40px;
+          background: #f9f9f9;
+
+          h5 {
+            font-size: 15px;
+            margin: 0 0 2px;
+          }
+
+          p.years {
+            margin: 0 0 5px;
+          }
+
+          p.workplace,
+          p.school {
+            margin: 0;
+            color: #222;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 500;
+          }
+
+          p.subtitle {
+            margin: 0 0 15px;
+          }
+        }
+      }
+    }
+
+    @include medium {
+      .education-section {
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+  .bars {
+    @include margin(60px null null null);
+    padding-bottom: 100px;
+
+    @include medium {
+      @include margin(30px null null null);
+      padding-bottom: 50px;
+    }
+
+    figure {
+      @include position(relative, null);
+      @include size(100% 3px);
+      @include margin(null null 68px);
+      background-color: $alabaster;
+      box-sizing: border-box;
+
+      span {
+        @include position(absolute, -30px null null 0);
+        @include margin(0);
+        font-size: 1.000em;
+        font-weight: 500;
+        color: #222;
+      }
+      
+      .skill-bar {
+        @include position(relative, null);
+        @include size(0 3px);
+        background: $title-text;
+      }
+
+      &:last-child {
+        @include margin(null null 0);
+      }
+    }
+  }
+}

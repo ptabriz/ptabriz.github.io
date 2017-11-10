@@ -1,0 +1,55 @@
+/* 2.7 - Navigation/Icon */
+
+.jayo-menu-wrapper {
+
+  .jayo-nav-icon {
+    @include position(relative, null);
+    @include size(26px 17px);
+    margin-top: 8px;
+    float: right;
+    cursor: pointer;
+    z-index: 999;
+
+    span {
+      @include position(absolute, null null null 0);
+      @include size(26px 3px);
+      @include transition(all .3s ease);
+      background: $mine-shaft;
+      border-radius: 2px;
+      z-index: 1;
+    }
+
+    span:nth-child(1) {
+      top: 0px;
+    }
+
+    span:nth-child(2) {
+      top: 7px;
+      @include size(15px 3px);
+    }
+
+    span:nth-child(3) {
+      top: 14px;
+      @include size(22px 3px);
+    }
+
+    &.open {
+      span:nth-child(1) {
+        @include position(absolute, 6px null null 0);
+        @include transform(rotate(45deg));
+      }
+
+      span:nth-child(2) {
+        @include position(absolute, 6px null null 0);
+        @include transform(rotate(-45deg));
+        @include size(26px 3px);
+      }
+
+      span:nth-child(3) {
+        @include position(absolute, 6px null null 0);
+        @include transform(rotate(-45deg));
+        opacity: 0;
+      }
+    }
+  }
+}

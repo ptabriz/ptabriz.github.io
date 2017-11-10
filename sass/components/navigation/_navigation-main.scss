@@ -1,0 +1,64 @@
+/* 2.8 - Navigation/Main */
+
+.jayo-menu-wrapper {
+  position: relative;
+  @include size(null 32px);
+  @include margin(63px 0 0);
+
+  @include medium {
+    @include margin(33px 0 0);
+  }
+
+  .jayo-menu {
+    @include position(absolute, 40px -15px null null);
+    background: #222;
+    width: 190px;
+    height: auto;
+    display: none;
+    z-index: 998;
+    text-align: right;
+    padding: 30px 0;
+    margin-top: 20px;
+    @include transition(margin .5s ease);
+
+    @include medium {
+      @include position(absolute, 40px 15px null null);
+    }
+
+    &.open {
+      margin-top: 0;
+    }
+
+    .no-menu {
+      @include position(absolute, 50% null null null);
+      @include transform(translateY(-50%));
+      @include size(100% null);
+    }
+
+    ul.menu {
+      @include padding(0);
+      list-style-type: none;
+    
+      li.menu-item {
+        display: block;
+        line-height: 1;
+
+        a {
+          color: #939393;
+          @include padding(5px 30px);
+          font-size: 15px;
+          line-height: 15px;
+          display: block;
+
+          &:hover {
+            color: #f1f1f1;
+          }
+        }
+
+        &.current_page_item a {
+          color: #f1f1f1;
+        }
+      }
+    }
+  }
+}

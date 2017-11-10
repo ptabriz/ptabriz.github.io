@@ -1,0 +1,94 @@
+/* 3.1 - Header/Page */
+
+.jayo-page-header {
+  margin-top: 60px;
+
+  .caption {
+
+    h2 {
+      @include margin(0);
+      font-size: 38px;
+      font-weight: 400;
+    }
+
+    p {
+      @include margin(10px 0 0 0);
+      color: #A8A8A8;
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    @include small {
+      h2 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  &.image,
+  &.slider {
+    margin: 0 0 20px;
+    position: relative;
+
+    .item {
+      @include size(null 750px);
+      position: relative;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+
+      @include small {
+        @include size(null 500px);
+      }
+
+      .caption {
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        opacity: 0;
+        margin-top: 20px;
+        @include transition(all .3s ease .8s);
+
+        h2 {
+          @include margin(0);
+          letter-spacing: 1.5px;
+          font-size: 2.125em;
+          font-weight: 400;
+        }
+
+        p {
+          @include margin(10px 0 0 0);
+          color: #A8A8A8;
+          font-size: 18px;
+          line-height: 1.3;
+        }
+      }
+    }
+
+    &:hover {
+      .owl-dots {
+        opacity: 1;
+        bottom: 20px;
+      }
+    }
+
+    .owl-item.active .item .caption {
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
+
+  &.image .item .caption {
+    opacity: 1;
+    margin-top: 0;
+  }
+}

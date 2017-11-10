@@ -1,0 +1,75 @@
+/* 3.3 - Footer */
+
+.jayo-site-footer {
+  @include position(relative, null);
+
+  .widgets {
+    background: #f9f9f9;
+    padding: 60px 0 40px;
+
+    .widget {
+      @include padding(null null 30px);
+
+      h4.widget-title {
+        @include position(relative, null);
+        @include margin(null null 15px);
+        font-size: 1.250em;
+      }
+
+      ul.list {
+        @include margin(0);
+        @include padding(0);
+
+        li {
+          list-style: none;
+          margin-bottom: 10px;
+
+          a {
+            color: $boulder;
+
+            &:hover {
+              color: $shark;
+            }
+          }
+
+          &:last-child {
+            @include border-width(null null 0);
+          }
+
+          .sub-menu {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright-area {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+
+    .copyright {
+      padding: 5px 0;
+    }
+
+    .social-media {
+      @include margin(0);
+      padding: 5px 0;
+
+      li {
+        display: inline-block;
+
+        a {
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          font-size: 16px;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+}
+
+
+

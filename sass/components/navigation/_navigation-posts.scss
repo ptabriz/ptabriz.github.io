@@ -1,0 +1,37 @@
+/* 2.9 - Navigation/Posts */
+
+.jayo-posts-page,
+.jayo-portfolio-template {
+  .navigation {
+    @include position(relative, null);
+    @include padding(40px null null null);
+    display: block;
+    text-align: center;
+    display: none;
+    
+    a {
+      @include padding(10px 18px);
+      @include margin(null 20px null null);
+      background: $seashell;
+      display: inline-block;
+
+      &:last-child {
+        @include margin(0);
+      }
+
+      &:hover {
+        color: $white;
+        background: $mine-shaft;
+      }
+    }
+
+    span {
+      display: inline-block;
+      @include padding(0 20px);
+    }
+  }
+}
+
+#infscr-loading {
+  opacity: 0;
+}

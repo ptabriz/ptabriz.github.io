@@ -1,0 +1,41 @@
+/* 2.10 - Portfolio/Filter */
+
+.jayo-portfolio-template .filter {
+  position: relative;
+  margin-bottom: 30px;
+  list-style: none;
+  padding: 0;
+
+  li {
+    @include padding(0);
+    display: inline-block;
+
+    a {
+      @include margin(0 10px 5px 0);
+      padding: 5px 10px;
+      font-size: 13px;
+      display: inline-block;
+      line-height: 1;
+      position: relative;
+      text-transform: lowercase;
+      color: #939393;
+
+      &:hover {
+
+      }
+    }
+
+    &.active a {
+      color: #f1f1f1;
+      background: #111;
+    }
+
+    &:last-child {
+      @include margin(0);
+    }
+  }
+
+  &.active {
+    left: 80px;
+  }
+}

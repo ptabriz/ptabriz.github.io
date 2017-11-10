@@ -1,0 +1,29 @@
+/* 2.3 - About/Services */
+
+.jayo-about-us-template .services.about-section {
+
+  figure {
+    @include margin(15px 0);
+    
+    .title {
+      position: relative;
+
+      i {
+        color: #222;
+        display: inline-block;
+        font-size: 32px;
+        line-height: 32px;
+      }
+
+      h4 {
+        font-size: 1.250em;
+        display: inline-block;
+        margin-left: 15px;
+      }
+    }
+
+    p {
+      @include margin(5px 0 0);
+    }
+  }
+}

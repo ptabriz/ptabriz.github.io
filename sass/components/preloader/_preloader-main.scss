@@ -1,0 +1,8 @@
+/* 2.14 - Preloader/Main */
+
+.jayo-preloader {
+	@include size(100%);
+  	@include position(fixed, 0);
+  	background-color: $white;
+  	z-index: 1000;
+}

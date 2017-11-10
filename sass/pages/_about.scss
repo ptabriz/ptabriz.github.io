@@ -1,0 +1,13 @@
+/* 4.1 - About */
+
+.jayo-about-us-template {
+
+	.about-section {
+  		@include padding(null null 80px);
+  		display: block;
+
+  		&:last-child {
+    		@include padding(null null 0);
+  		}
+  	}
+}

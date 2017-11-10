@@ -1,0 +1,73 @@
+/*
+Template Name: Jayo
+URI: http://jkalberto.com
+Version: 1.0.0
+*/
+/**
+ * Table of Contents:
+ * 1.0 - Base
+ *	1.1 -  Theme
+ * 2.0 - Components
+ *	2.1 -  About/Clients
+ * 	2.2 -  About/Me
+ * 	2.3 -  About/Services
+ * 	2.4 -  About/Team
+ *	2.5 -  Contact/Form
+ *	2.6 -  Contact/Section
+ *	2.7 -  Navigation/Icon
+ *	2.8 -  Navigation/Main
+ *	2.9 -  Navigation/Posts
+ *	2.10 - Portfolio/Filter
+ *	2.11 - Portfolio/Grid
+ *	2.12 - Preloader/Circle
+ *	2.14 - Preloader/Main
+ * 3.0 - Layout
+ *	3.1 -  Header/Page
+ * 	3.2 -  Header/Site
+ * 	3.3 -  Footer
+ * 	3.4 -  Section Title
+ * 	3.5 -  Site
+ * 4.0 - Pages
+ *	4.3 -  About
+ *	4.2 -  Posts
+ *	4.3 -  Single
+ * -----------------------------------------------------------------------------
+ */
+
+@import "helpers/bourbon/bourbon";
+@import "helpers/colors";
+@import "helpers/mixins";
+
+/* 1.0 - Base */
+@import "base/theme";
+
+/* 2.0 - Components */
+@import "components/about/about-clients";
+@import "components/about/about-me";
+@import "components/about/about-services";
+@import "components/about/about-team";
+
+@import "components/contact/contact-form";
+@import "components/contact/contact-section";
+
+@import "components/navigation/navigation-icon";
+@import "components/navigation/navigation-main";
+@import "components/navigation/navigation-posts";
+
+@import "components/portfolio/portfolio-filter";
+@import "components/portfolio/portfolio-grid";
+
+@import "components/preloader/preloader-circle";
+@import "components/preloader/preloader-main";
+
+/* 3.0 - Layout */
+@import "layout/header/header-page";
+@import "layout/header/header-site";
+@import "layout/footer";
+@import "layout/section-title";
+@import "layout/site";
+
+/* 4.0 - Pages */
+@import "pages/about";
+@import "pages/posts";
+@import "pages/single";

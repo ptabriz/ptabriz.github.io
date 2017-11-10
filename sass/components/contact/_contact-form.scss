@@ -1,0 +1,48 @@
+/* 2.5 - Contact/Contact Form */
+
+.contact-form {
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .col-md-6 {
+    margin-bottom: 15px;
+  }
+
+  .form-control {
+    @include padding(12px 20px);
+    @include border-width(0);
+    @include border-top-radius(0);
+    @include border-right-radius(0);
+    @include border-bottom-radius(0);
+    @include border-left-radius(0);
+    height: auto;
+    background: #f1f1f1;
+    font-size: 13px;
+
+    &:focus {
+      @include border-width(0);
+      @include transition(all 0s ease);
+      box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+    }
+  }
+  
+  .submit {
+    @include transition(all 0.2s ease);
+    @include size(200px 50px);
+    @include border-width(0);
+    @include margin(15px auto 0);
+    background: #f1f1f1;
+    display: block;
+
+    &:hover {
+      background: #222;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
