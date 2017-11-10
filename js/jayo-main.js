@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
     jQuery('.jayo-page-header.slider').owlCarousel({
         nav : false,
         loop : true,
-        dots : false,
+        dots : true,
         autoplay : true,
         autoplayTimeout: 6000,
         margin : 0,

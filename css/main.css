@@ -317,7 +317,7 @@ th, td {
   position: relative;
   height: 17px;
   width: 26px;
-  margin-top: 8px;
+  margin-top: 1px;
   float: right;
   cursor: pointer;
   z-index: 999; }
@@ -656,20 +656,20 @@ th, td {
       .jayo-page-header.image .item .caption, .jayo-page-header.slider .item .caption {
         position: absolute;
         top: 60%;
-        left: 30%;
+        left: 28.3%;
         opacity: 0;
         margin-top: 20px;
         -webkit-transition: all 0.3s ease 0.8s;
         -moz-transition: all 0.3s ease 0.8s;
         transition: all 0.3s ease 0.8s; }
         .jayo-page-header.image .item .caption h2, .jayo-page-header.slider .item .caption h2 {
-          margin: 0;
+          margin: 0 100 100px;
           letter-spacing: 1.5px;
-          font-size: 2.125em;
+          font-size: 2em;
           font-weight: 400; }
         .jayo-page-header.image .item .caption p, .jayo-page-header.slider .item .caption p {
-          margin: 10px 0 0;
-          color: #A8A8A8;
+          margin: 15px 100 100;
+          color: #E9E8E8;
           font-size: 18px;
           line-height: 1.3; }
     .jayo-page-header.image:hover .owl-dots, .jayo-page-header.slider:hover .owl-dots {
@@ -686,17 +686,24 @@ th, td {
 .jayo-site-header {
   margin: 0 auto; }
   .jayo-site-header .site-brand {
-    height: 32px;
-    margin: 63px 0 0; }
+    height: 50px;
+    margin: 410px 0 0;
+    }
+.jayo-site-header .site-brand h2 {
+
+    letter-spacing: 1.5px;
+    font-size: 3em;
+    font-weight: 400; }
+
     @media only screen and (max-width: 767px) {
       .jayo-site-header .site-brand {
         margin: 33px 0 0; } }
     .jayo-site-header .site-brand img {
       max-height: 32px; }
     .jayo-site-header .site-brand h1 {
-      margin: 0;
+      margin: 1;
       line-height: 32px;
-      font-size: 24px; }
+      font-size: 40px; }
     .jayo-site-header .site-brand a {
       height: 32px;
       display: inline-block; }
