@@ -48,7 +48,7 @@ body {
   font-weight: 400;
   line-height: 1.45;
   letter-spacing: 1px;
-  font-size: 15px; }
+  font-size: 13px; }
 
 a {
   -webkit-transition: all 0.2s ease;
@@ -106,6 +106,17 @@ th, td {
 /* 2.2 - About/Me */
 .jayo-about-me-template .about-me-sections {
   margin: 0 -50px; }
+
+  .jayo-page-header .caption h2 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 400; }
+  .jayo-page-header .caption p {
+    margin: 10px 0 0;
+    color: #A8A8A8;
+    font-size: 22px;
+    line-height: 1.3; }
+
   .jayo-about-me-template .about-me-sections .experience-section,
   .jayo-about-me-template .about-me-sections .education-section {
     padding: 0 50px;
@@ -122,6 +133,16 @@ th, td {
       .jayo-about-me-template .about-me-sections .experience-section .title h4,
       .jayo-about-me-template .about-me-sections .education-section .title h4 {
         font-size: 1.250em; }
+
+      .jayo-about-me-template .about-me-sections .experience-section .title h5,
+      .jayo-about-me-template .about-me-sections .education-section .title h5 {
+        font-size: 1em; }
+
+      .jayo-about-me-template .about-me-sections .experience-section .title p2,
+      .jayo-about-me-template .about-me-sections .education-section .title p2 {
+        font-size: 10; }
+
+
       .jayo-about-me-template .about-me-sections .experience-section .title span,
       .jayo-about-me-template .about-me-sections .education-section .title span {
         display: inline-block;
@@ -1115,11 +1136,36 @@ th, td {
     position: relative;
     margin: 0 0 5px;
     font-size: 1.625em; }
+
+  .jayo-about-me-template .section-title h6, {
+    position: relative;
+    margin: 0 0 15px;
+    font-size: 1.4; }
+
   .jayo-about-us-template .section-title p,
   .jayo-about-me-template .section-title p,
   .jayo-contact-template .section-title p,
   .jayo-portfolio-template .section-title p {
-    margin: 0; }
+    margin-top: 35px;
+    font-size: 12px;}
+
+  .jayo-about-us-template .section-title h5,
+  .jayo-about-me-template .section-title h5,
+  .jayo-contact-template .section-title h5,
+  .jayo-about-me-template .section-title h5,{
+    position: relative;
+    margin: 0 0 15px;
+    font-size: 3; }
+
+  .jayo-about-us-template .section-title h6,
+  .jayo-about-me-template .section-title h6,
+  .jayo-contact-template .section-title h6,
+  .jayo-about-me-template .section-title h6,{
+    position: relative;
+    margin: 0 0 15px;
+    font-size: .3; }
+
+
 
 .jayo-about-me-template .section-title {
   padding-bottom: 100px; }
@@ -1165,6 +1211,29 @@ th, td {
     line-height: 1; }
   .jayo-posts-page .blog-items .item .description p {
     margin: 15px 0 0; }
+
+
+  .jayo-posts-page .blog-items .item .paper {
+    padding: 30px 10px 50px; }
+    .jayo-posts-page .blog-items .item .paper h3 {
+      margin-left: 100px;
+      font-size: 18px;
+      color: #222; }
+
+    .jayo-posts-page .blog-items .item .paper p {
+      margin-left: 1000px;
+      padding-right: 15px;
+      font-size: 18px;
+      color: #222; }
+
+    .jayo-posts-page .blog-items .item .paper p.date {
+      margin: 8px 0 10px;
+      color: #555;
+      font-size: 1.000em;
+      line-height: 1; }
+    .jayo-posts-page .blog-items .item .paper p {
+        margin: 15px 0 0; }
+
 .jayo-posts-page .blog-items {
   margin-bottom: -50px; }
 .jayo-posts-page .navigation {
@@ -1238,6 +1307,12 @@ th, td {
 .single-portfolio .site-main .thumb,
 .single-post .site-main .thumb {
   text-align: center; }
+
+.single-portfolio .site-main .thumb-left,
+.single-post .site-main .thumb-left {
+  text-align: center;
+  margin-left: 100px;
+}
 .single-portfolio .site-main .main-content,
 .single-post .site-main .main-content {
   padding-top: 60px; }
