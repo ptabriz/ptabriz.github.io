@@ -156,7 +156,7 @@ jQuery(document).ready(function($) {
           return false;
         }
       }
-
+    });  
 
     // Infinite Scroll Function
     $container.infinitescroll({
